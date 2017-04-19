@@ -1,9 +1,14 @@
-# api documentation for  [redux-mock-store (v1.2.2)](https://github.com/arnaudbenard/redux-mock-store#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-redux-mock-store.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-mock-store) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-mock-store.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-mock-store)
-#### [![Circle CI](https://circleci.com/gh/arnaudbenard/redux-mock-store/tree/master.svg?style=svg)](https://circleci.com/gh/arnaudbenard/redux-mock-store/tree/master)
+# npmdoc-redux-mock-store
 
-[![NPM](https://nodei.co/npm/redux-mock-store.png?downloads=true)](https://www.npmjs.com/package/redux-mock-store)
+#### api documentation for  [redux-mock-store (v1.2.3)](https://github.com/arnaudbenard/redux-mock-store#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-redux-mock-store.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-mock-store) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-mock-store.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-mock-store)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-redux-mock-store_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/apidoc.html)
+#### A mock store for testing your redux async action creators and middleware
+
+[![NPM](https://nodei.co/npm/redux-mock-store.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/redux-mock-store)
+
+- [https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-redux-mock-store/build/screenCapture.npmPackageListing.svg)
 
@@ -17,14 +22,13 @@
 
 {
     "author": {
-        "name": "Arnaud Benard",
-        "email": "arnaudm.benard@gmail.com"
+        "name": "Arnaud Benard"
     },
     "bugs": {
         "url": "https://github.com/arnaudbenard/redux-mock-store/issues"
     },
     "dependencies": {},
-    "description": "[![Circle CI](https://circleci.com/gh/arnaudbenard/redux-mock-store/tree/master.svg?style=svg)](https://circleci.com/gh/arnaudbenard/redux-mock-store/tree/master)",
+    "description": "A mock store for testing your redux async action creators and middleware",
     "devDependencies": {
         "babel-cli": "^6.11.4",
         "babel-core": "^6.13.2",
@@ -39,26 +43,23 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "38007dc38f12ca8d965c7521afee5ccacc234d03",
-        "tarball": "https://registry.npmjs.org/redux-mock-store/-/redux-mock-store-1.2.2.tgz"
+        "shasum": "1b3ad299da91cb41ba30d68e3b6f024475fb9e1b",
+        "tarball": "https://registry.npmjs.org/redux-mock-store/-/redux-mock-store-1.2.3.tgz"
     },
-    "gitHead": "d141a70729032c06022b5cf49020d3647cea2d10",
+    "gitHead": "65d143a6a3a3b882c57731731adfdcc0e9cac86a",
     "homepage": "https://github.com/arnaudbenard/redux-mock-store#readme",
     "license": "MIT",
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "arnaudbenard",
-            "email": "arnaudbenard13@gmail.com"
+            "name": "arnaudbenard"
         },
         {
-            "name": "dmitry-zaets",
-            "email": "dmitry.zaets@gmail.com"
+            "name": "dmitry-zaets"
         }
     ],
     "name": "redux-mock-store",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/arnaudbenard/redux-mock-store.git"
@@ -69,19 +70,9 @@
         "pretest": "npm run lint",
         "test": "mocha --compilers js:babel-core/register --reporter spec test/*.js"
     },
-    "version": "1.2.2"
+    "version": "1.2.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module redux-mock-store](#apidoc.module.redux-mock-store)
-
-
-
-# <a name="apidoc.module.redux-mock-store"></a>[module redux-mock-store](#apidoc.module.redux-mock-store)
 
 
 
